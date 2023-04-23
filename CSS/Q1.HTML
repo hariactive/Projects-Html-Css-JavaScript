@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        css selector
+        */
+        /* element selector */
+        p {
+            color: violet;
+        }
+        div ol li{
+            color:blue;
+        }
+        div>p>span{
+            color: blue;
+        }
+        div>span>p>span{
+            color: red;
+        }
+    .home{
+        color:orange;
+    }
+    .m1.m2{
+        color:green;
+    }
+    input[value="Select me"]{
+        color:black;
+    }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="button" value ="click me">
+        <input type="button" value ="Select me">
+    </form>
+
+    
+    <div class = "m1 m2">Select me</div>
+    <div class = "m1">Nor me</div>
+    <div class = "m2">Yes me</div>
+
+    <p>homee</p>
+    <p class="home">select me and next guy</p>
+    <p class = "lests">Yes me!</p>
+    <div>
+        <p><span>i am direct</span></p>
+    </div>
+    <div>
+        <span>
+            <p><span>lets see</span></p>
+        </span>
+    </div>
+    <ol>
+        <li>I</li>
+        <li>am</li>
+        <li>a </li>
+        <li>List</li>
+    </ol>
+    <div>
+      <ol>
+        <li>Select</li>
+        <li>me</li>
+      </ol>  
+    </div>
+    <p>Thats it</p>
+    <p>Thats it</p>
+    <p>Thats it</p>
+    <p>Thats it</p>
+    
+</body>
+</html>
